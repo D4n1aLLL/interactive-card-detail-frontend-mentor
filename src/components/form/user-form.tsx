@@ -1,5 +1,7 @@
+import "./user-form.css";
+
 function UserForm() {
-    return <div></div>;
+    return <div className="user-form"></div>;
 }
 
 export default UserForm;

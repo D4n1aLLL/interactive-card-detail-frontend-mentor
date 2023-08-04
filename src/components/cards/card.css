@@ -1,0 +1,61 @@
+.cards {
+    color: var(--White);
+    margin-top: 7%;
+    margin-left: 9%;
+    z-index: 1;
+}
+
+.card-front {
+    background: url("../../assets/images/bg-card-front.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 16rem;
+    width: 30rem;
+    padding: 25px;
+    border-radius: 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.circles {
+    position: absolute;
+    top: 8%;
+}
+
+.card-number {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.card-front-bottom {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+}
+
+.card-expiry {
+    margin-left: auto;
+}
+
+.card-back {
+    background: url("../../assets/images/bg-card-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 16rem;
+    width: 30rem;
+    padding: 25px;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.cvc {
+    position: absolute;
+    right: 12%;
+    top: 45%;
+}
