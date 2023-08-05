@@ -3,6 +3,7 @@
     margin-top: 7%;
     margin-left: 9%;
     z-index: 1;
+    width: 50%;
 }
 
 .card-front {
@@ -10,7 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 16rem;
-    width: 30rem;
+    max-width: 30rem;
     padding: 25px;
     border-radius: 20px;
     margin-left: 10%;
@@ -43,10 +44,10 @@
 
 .card-back {
     background: url("../../assets/images/bg-card-back.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 16rem;
-    width: 30rem;
+    max-width: 30rem;
     padding: 25px;
     border-radius: 20px;
     margin-left: 35%;

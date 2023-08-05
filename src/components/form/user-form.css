@@ -1,2 +1,62 @@
 .user-form {
+    margin-top: 100px;
+    width: 400px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.error-message {
+    margin-top: 10px;
+    color: var(--Red);
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    height: 40px !important;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 1px solid var(--Light-grayish-violet);
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-image: linear-gradient(var(--Linear-grad1), var(--Linear-grad2)) 1;
+}
+
+input[type="text"].error {
+    border: 1px solid var(--Red);
+}
+
+input[type="text"]::placeholder {
+    color: var(--Dark-grayish-violet);
+}
+
+.submit-btn {
+    background: var(--Very-dark-violet);
+    color: var(--White);
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+}
+
+.icon-completed > img {
+    padding: 0px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.thank-you > h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.added-msg {
+    font-size: 1rem;
+    color: var(--Dark-grayish-violet)
 }

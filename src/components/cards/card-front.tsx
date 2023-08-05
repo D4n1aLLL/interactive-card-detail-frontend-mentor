@@ -7,10 +7,10 @@ function CardFront({ data }: any) {
                 <img src={CardLogo} alt=""></img>
             </div>
             <div className="card-front-data">
-                <p className="card-number">{data.cardNumber.replace(/(.{4})/g,"$1 ")}</p>
+                <p className="card-number">{data.cardNumber.replace(/\s/g,"").replace(/(.{4})/g,"$1 ")}</p>
                 <div className="card-front-bottom">
                     <div className="card-holder-name">{data.cardHolderName.toUpperCase()}</div>
-                    <div className="card-expiry">{data.cardExpiry}</div>
+                    <div className="card-expiry">{data.cardExpiryMonth}/{data.cardExpiryYear}</div>
                 </div>
             </div>
         </div>

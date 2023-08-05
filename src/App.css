@@ -1,11 +1,12 @@
 .App {
     display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .bg-main {
+    top: 0;
     height: 100vh;
-    left: 0;
-    right: 0;
     width: 30%;
     position: absolute;
 }
