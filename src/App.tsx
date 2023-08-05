@@ -6,11 +6,11 @@ import Cards from "./components/cards/cards";
 
 function App() {
     const [cardData, setCardData] = useState({
-        cardHolderName: "Felicia Leire",
-        cardNumber: "9591 6489 6389 101E",
-        cardExpiryMonth: "00",
-        cardExpiryYear: "09",
-        cvc: "001",
+        cardHolderName: "",
+        cardNumber: "",
+        cardExpiryMonth: "",
+        cardExpiryYear: "",
+        cvc: "",
     });
 
     return (
