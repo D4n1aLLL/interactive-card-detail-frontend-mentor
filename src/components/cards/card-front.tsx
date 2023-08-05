@@ -4,7 +4,7 @@ function CardFront({ data }: any) {
     return (
         <div className="card-front">
             <div className="circles">
-                <img src={CardLogo} alt=""></img>
+                <img src={CardLogo} className="circle-img" alt=""></img>
             </div>
             <div className="card-front-data">
                 <p className="card-number">{data.cardNumber.replace(/\s/g,"").replace(/(.{4})/g,"$1 ")}</p>

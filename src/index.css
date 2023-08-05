@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: "Space Grotesk", sans-serif !important;
     font-weight: 500 !important;
+    overflow: hidden;
 }
 
 :root {
@@ -14,4 +15,5 @@ body {
     --Very-dark-violet: hsl(278, 68%, 11%);
     --Linear-grad1: hsl(249, 99%, 64%);
     --Linear-grad2: hsl(278, 94%, 30%);
+    --Mobile-screen: 500px;
 }

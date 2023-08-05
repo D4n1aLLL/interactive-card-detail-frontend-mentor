@@ -12,13 +12,30 @@
     background-repeat: no-repeat;
     height: 16rem;
     max-width: 30rem;
+    min-width: 20rem;
     padding: 25px;
     border-radius: 20px;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: 480px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
+}
+
+.card-back {
+    background: url("../../assets/images/bg-card-back.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 16rem;
+    max-width: 30rem;
+    min-width: 20rem;
+    padding: 25px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: 30px;
 }
 
 .circles {
@@ -42,21 +59,53 @@
     margin-left: auto;
 }
 
-.card-back {
-    background: url("../../assets/images/bg-card-back.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 16rem;
-    max-width: 30rem;
-    padding: 25px;
-    border-radius: 20px;
-    margin-left: 35%;
-    margin-top: 30px;
-    position: relative;
-}
-
 .cvc {
     position: absolute;
     right: 12%;
     top: 45%;
+}
+
+@media(max-width: 700px) {
+    .cards {
+        color: var(--White);
+        margin-top: 0%;
+        margin-left: 0%;
+        z-index: 1;
+        width: 100vw;
+    }
+
+    .card-front {
+        z-index: 2;
+        margin-top: 121px;
+        width: 55vw;
+        height: 10rem;
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    .card-back {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 25px;
+        height: 10rem;
+        width: 55vw;
+        z-index: 1;
+    }
+
+    .card-number {
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+    
+    .circle-img {
+        height: 35px;
+    }
+
+    .cvc {
+        position: absolute;
+        right: 12%;
+        top: 8.5vh;
+    }
 }

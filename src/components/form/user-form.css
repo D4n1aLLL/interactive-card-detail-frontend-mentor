@@ -1,6 +1,11 @@
+.user-form-div {
+    display: flex;
+}
+
 .user-form {
-    margin-top: 100px;
-    width: 400px;
+    margin-top: 20vh;
+    width: 30vw;
+    max-width: 400px;
     font-size: 0.8rem;
     font-weight: 600;
 }
@@ -59,4 +64,10 @@ input[type="text"]::placeholder {
 .added-msg {
     font-size: 1rem;
     color: var(--Dark-grayish-violet)
+}
+
+@media(max-width: 700px) {
+    .user-form {
+        width: 100vw;
+    }
 }
